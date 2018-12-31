@@ -11,8 +11,8 @@ namespace Tepsit
         static void Main(string[] args)
         { 
             int a = int.MaxValue;
-            Console.WriteLine(a);
-            Console.WriteLine(a + 1);
+            Console.WriteLine(a); //Rappresenta il numero massimo supportato dall'int 
+            Console.WriteLine(a + 1); //Rappresenta il numero minimo supportato aggiungendo +1
             int b = -128;
             int c = -b;
             Console.WriteLine(Convert.ToString(b, 2));
